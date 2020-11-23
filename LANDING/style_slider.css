@@ -1,0 +1,38 @@
+.slider{
+	width: 1036px;
+	height: 447px;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+}
+.slider ul{
+	padding: 0;
+	display: flex;
+	width: 500%;
+	animation: slider 20s infinite alternate;
+	margin: 0;
+}
+.slider li{
+	list-style: none;
+	width: 100%;
+}
+.slider img{
+	width: 1036px;
+	height: 447px;
+}
+@keyframes slider{
+	0% { margin-left: 0; }
+	10% {margin-left: 0; }
+
+	15% {margin-left: -100%; }
+	35% {margin-left: -100%; }
+
+	40% {margin-left: -200%; }
+	60% {margin-left: -200%; }
+
+	65% {margin-left: -300%; }
+	85% {margin-left: -300%; }
+
+	90% {margin-left: -400%; }
+	100% {margin-left: -400%; }
+}

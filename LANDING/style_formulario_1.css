@@ -1,0 +1,167 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	background: #ccc;
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	position: relative;
+	width: 805px;
+	height: 713px;
+	align-items: center;
+	margin: auto;
+	text-align: center;
+	/*background: rgba(255, 255, 255, 0.85);*/
+	background: #fff;
+	text-align: center;
+
+}
+.container-texto1{
+	width: 358px;
+	height: 100%;
+	overflow: hidden;
+	color: #fff;
+	background: rgba(205, 14, 62, 0.95);
+	border-radius: 5px;
+	float: left;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+}
+.texto1{
+	width: 100%;
+	font-size: 36px;
+	padding-left: 17px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+.texto1 p{
+	width: 100%;
+	line-height: 20px;
+}
+.container-texto2{
+	align-items: center;
+	width: 450px;
+	height: 100%;
+	text-align: center;
+	overflow: hidden;
+	color: #000;
+	margin: 0;
+	background: #fff;
+	border-radius: 5px;
+	padding-left: 0px;
+	float: left;
+	margin-left: -3px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.texto2{
+	width: 100%;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+}
+.texto2 p{
+	line-height: 30px;
+	margin: 0 auto 10px auto;
+}
+
+.boton1{
+	display: inline-block;
+	width: 178px;
+	padding: 15px 0;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	z-index: 1;
+	font-size: 24px;
+	font-weight: bold;
+	background: #0A1B74;
+	border-radius: 5px;
+	border: 1px solid #0A1B74;
+	margin-top: 5px;
+}
+.boton1:hover{
+	color: #0A1B74;
+	background: #fff;
+	border: 1px solid #0A1B74;
+}
+.texto3{
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	padding-left: 65px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: left;
+	text-align: left;
+}
+
+form{
+	width: 100%;
+}
+form p{
+	margin: 5px auto;
+}
+input{
+	width: 310px;
+	height: 30px;
+	border: none ;
+	box-sizing: border-box;
+	margin-bottom:1px;
+	text-align: left;
+	letter-spacing: 0.1em;
+	border-bottom: 2px solid #000;
+	margin-bottom: 5px;
+}
+.caja{
+	width: 30px;
+	margin-right: 10px;
+}
+.texto4 {
+	font-size: 15px;
+	width: 310px;
+	text-align: left;
+	height: 41.5px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.texto4 select{
+	width: 261px;
+	height: 30px;
+	margin-left: 3px;
+}
+.texto5 {
+	font-size: 15px;
+	width: 310px;
+	text-align: left;
+	height: 41.5px;
+	letter-spacing: 0.05em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.texto5 select{
+	width: 84px;
+	height: 30px;
+	margin-left: 3px;
+}
+
